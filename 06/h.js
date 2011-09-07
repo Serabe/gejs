@@ -52,7 +52,3 @@ HelperJS = HJS = (function() {
     passEncrypt: passEncrypt
   }
 })();
-
-console.log(HJS.passEncrypt("    hola mundo    "));
-console.log(HJS.passEncrypt("Hola mundo"));
-console.log(HJS.passEncrypt("camelCased"));
